@@ -5,13 +5,27 @@
 #include "ftd2xx.h"
 
 #define BUF_SIZE 96
-
 #define MAX_DEVICES 2
+
+const char *byte_to_binary(int x)
+{
+    static char b[9];
+    b[0] = '\0';
+
+    int z;
+    for (z = 128; z > 0; z >>= 1)
+    {
+        strcat(b, ((x & z) == z) ? "1" : "0");
+    }
+
+    return b;
+}
 
 int main()
 {
 	unsigned char 	cBufWrite[BUF_SIZE];
 	unsigned char * pcBufRead = NULL;
+	//unsigned char pcBufRead[10000];
 	char * 	pcBufLD[MAX_DEVICES + 1];
 	char 	cBufLD[MAX_DEVICES][64];
 	DWORD	dwRxSize = 0;
@@ -21,7 +35,10 @@ int main()
 	int	iNumDevs = 0;
 	int	i, j, k;
 	int	iDevicesOpen;		
-			
+	FILE *file;
+	int cnt1=0;
+	file = fopen("file.txt","w");
+	
 	i=0;
 	iDevicesOpen=i;
 	
@@ -69,41 +86,31 @@ int main()
 			printf("Error FT_Write(%d)\n", (int)ftStatus);
 		}
 		//Stop getting data from the amps = 115
-		
+		int kk;
+		for (kk=0;kk<10;kk++){
 		dwRxSize = 0;			
 		while ((dwRxSize < BUF_SIZE) && (ftStatus == FT_OK)) {
 			ftStatus = FT_GetQueueStatus(ftHandle[i], &dwRxSize);
 		}
-		if(ftStatus == FT_OK) {
+		//if(ftStatus == FT_OK) {
 			pcBufRead = realloc(pcBufRead, dwRxSize);
 			memset(pcBufRead, 0xFF, dwRxSize);
-			printf("Calling FT_Read with this read-buffer:\n");
+		//	printf("Calling FT_Read with this read-buffer:\n");
 			
 			ftStatus = FT_Read(ftHandle[i], pcBufRead, dwRxSize, &dwBytesRead);
-			if (ftStatus != FT_OK) {
+		/*	if (ftStatus != FT_OK) {
 				printf("Error FT_Read(%d)\n", (int)ftStatus);
 			}
-			if (dwBytesRead != dwRxSize) {
-				printf("FT_Read only read %d (of %d) bytes\n",
-				       (int)dwBytesRead,
-				       (int)dwRxSize);
-			}
-			printf("FT_Read read %d bytes.  Read-buffer is now:\n",
-			       (int)dwBytesRead);
-			
-			printf("%s test passed.\n", cBufLD[i]);
-		}
-		else {
-			printf("Error FT_GetQueueStatus(%d)\n", (int)ftStatus);	
-		}
+		*/
+		
+		printf("Read %d bytes\n", (int)dwBytesRead);
 	
 		int TTLval, channelVal, index;
 
 		int ch=-1;
 		float v;
 		
-		FILE *file;
-	file = fopen("file.txt","w");
+		
 
 	/*
     for (index = 0; index < (int)dwBytesRead; index += 3) { 
@@ -146,11 +153,21 @@ int main()
     }*/
     
 	
-	for(j=0;j<(int)dwBytesRead;j++) fprintf(file,"%d \n",pcBufRead[j]);
+	for(j=0;j<(int)dwBytesRead;j++) {
+	  cnt1++;
+	 if ((int)(pcBufRead[j] & 0xFC)==60) {
+	    printf("0b000000xx occured after %d bytes\n", cnt1);
+	    cnt1=0;
+	  }
+	  //fprintf(file,"%d \n",pcBufRead[j]);
+	  fprintf(file,"%s\n",byte_to_binary((int)pcBufRead[j]));
+	}
+	}
 	fclose(file);
 	//ftdi_usb_close(&ftHandle[i]);
         //ftdi_deinit(&ftHandle[i]);
         FT_Close(ftHandle[i]);
+	//printf("If = %d \n", (char)(0xFC & 0xFC));
 		return 0;
 		
 }
