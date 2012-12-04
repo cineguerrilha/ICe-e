@@ -24,8 +24,8 @@ const char *byte_to_binary(int x)
 int main()
 {
 	unsigned char 	cBufWrite[BUF_SIZE];
-	//unsigned char * pcBufRead = NULL;
-	unsigned char pcBufRead[50000];
+	unsigned char * pcBufRead = NULL;
+	//unsigned char pcBufRead[10000];
 	char * 	pcBufLD[MAX_DEVICES + 1];
 	char 	cBufLD[MAX_DEVICES][64];
 	DWORD	dwRxSize = 0;
@@ -37,7 +37,12 @@ int main()
 	int	iDevicesOpen;		
 	FILE *file;
 	int cnt1=0;
+	int cnt2=0;
 	file = fopen("file.txt","w");
+	
+		int TTLval, channelVal, index, ind2;
+		int ch=-1;
+		float v;
 	
 	i=0;
 	iDevicesOpen=i;
@@ -87,14 +92,14 @@ int main()
 		}
 		//Stop getting data from the amps = 115
 		int kk;
-		for (kk=0;kk<10;kk++){
+		for (kk=0;kk<20;kk++){
 		dwRxSize = 0;			
 		while ((dwRxSize < BUF_SIZE) && (ftStatus == FT_OK)) {
 			ftStatus = FT_GetQueueStatus(ftHandle[i], &dwRxSize);
 		}
 		//if(ftStatus == FT_OK) {
-		//	pcBufRead = realloc(pcBufRead, dwRxSize);
-		//	memset(pcBufRead, 0xFF, dwRxSize);
+			pcBufRead = realloc(pcBufRead, dwRxSize);
+			memset(pcBufRead, 0xFF, dwRxSize);
 		//	printf("Calling FT_Read with this read-buffer:\n");
 			
 			ftStatus = FT_Read(ftHandle[i], pcBufRead, dwRxSize, &dwBytesRead);
@@ -103,23 +108,12 @@ int main()
 			}
 		*/
 		
-		printf("Read %d bytes\n", (int)dwBytesRead);
-	
-		int TTLval, channelVal, index;
-
-		int ch=-1;
-		float v;
+		//printf("Read %d bytes\n", (int)dwBytesRead);
 		
 		
 
 	/*
-    for (index = 0; index < (int)dwBytesRead; index += 3) { 
-           
-          ++ch;
-           printf("%d \n",ch);
-       v = ((pcBufRead[index] & 127) + 
-                     ((pcBufRead[index+1] & 127) << 7) + 
-                     ((pcBufRead[index+2] & 3) << 14)) * 0.1907f - 6175.0f;
+    
 		     
 	fprintf(file,"%f \n",v);
 	
@@ -155,12 +149,25 @@ int main()
 	
 	for(j=0;j<(int)dwBytesRead;j++) {
 	  cnt1++;
+	  if (cnt2==1) {
+	  for (index = 0; index < 48; index += 3) { 
+           ++ch;
+	   ind2=j-48+index;
+	   v = ((pcBufRead[ind2] & 127) + 
+                     ((pcBufRead[ind2+1] & 127) << 7) + 
+                     ((pcBufRead[ind2+2] & 3) << 14)) * 0.1907f - 6175.0f;
+	  fprintf(file,"%f ", v);
+	  }
+	  fprintf(file,"\n", v);
+	  }
+	 cnt2=0;
 	 if ((int)(pcBufRead[j] & 0xFC)==60) {
-	    printf("0b000000xx occured after %d bytes\n", cnt1);
+	    //printf("Read %d bytes\n", cnt1);
+	    if (cnt1==48) cnt2=1;
 	    cnt1=0;
 	  }
 	  //fprintf(file,"%d \n",pcBufRead[j]);
-	  fprintf(file,"%s\n",byte_to_binary((int)pcBufRead[j]));
+	  //fprintf(file,"%s\n",byte_to_binary((int)pcBufRead[j]));
 	}
 	}
 	fclose(file);
