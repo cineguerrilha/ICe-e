@@ -36,9 +36,11 @@ int main()
 	int	i, j, k;
 	int	iDevicesOpen;		
 	FILE *file;
+	FILE *f2;
 	int cnt1=0;
 	int cnt2=0;
-	file = fopen("file.txt","w");
+	file = fopen("data.txt","w");
+	f2 = fopen("ttl.txt","w");
 	
 		int TTLval, channelVal, index, ind2;
 		int ch=-1;
@@ -132,17 +134,7 @@ int main()
 
          //}
 
-         if (ch > 0 && ch < 7) // event channels
-        {
-            TTLval = (pcBufRead[index+2] & 4) >> 2; // extract TTL value (bit 3)
-        }
 
-         channelVal = pcBufRead[index+2] & 60;   // extract channel value
-
-         if (channelVal == 60) {
-            // reset values
-         	ch = -1;
-         }
 
     }*/
     
@@ -157,8 +149,24 @@ int main()
                      ((pcBufRead[ind2+1] & 127) << 7) + 
                      ((pcBufRead[ind2+2] & 3) << 14)) * 0.1907f - 6175.0f;
 	  fprintf(file,"%f ", v);
+	  
+	  if (ch > 0 && ch < 7) // event channels
+        {
+            TTLval = (pcBufRead[index+2] & 4) >> 2; // extract TTL value (bit 3)
+	    fprintf(f2,"%d ", TTLval);
+            eventCode += (TTLval << (ch-1));
+        }
+         channelVal = pcBufRead[index+2] & 60;   // extract channel value
+
+         if (channelVal == 60) {
+            // reset values
+         	ch = -1;
+            eventCode = 0;
+         }
+	  
 	  }
 	  fprintf(file,"\n", v);
+	  fprintf(f2,"\n", v);
 	  }
 	 cnt2=0;
 	 if ((int)(pcBufRead[j] & 0xFC)==60) {
@@ -171,6 +179,7 @@ int main()
 	}
 	}
 	fclose(file);
+	fclose(f2);
 	//ftdi_usb_close(&ftHandle[i]);
         //ftdi_deinit(&ftHandle[i]);
         FT_Close(ftHandle[i]);
