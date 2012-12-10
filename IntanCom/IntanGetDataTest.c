@@ -165,8 +165,8 @@ int main()
          }
 	  
 	  }
-	  fprintf(file,"\n", v);
-	  fprintf(f2,"\n", v);
+	  fprintf(file,"\n");
+	  fprintf(f2,"\n");
 	  }
 	 cnt2=0;
 	 if ((int)(pcBufRead[j] & 0xFC)==60) {

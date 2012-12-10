@@ -154,14 +154,14 @@ int main()
         {
             TTLval = (pcBufRead[index+2] & 4) >> 2; // extract TTL value (bit 3)
 	    fprintf(f2,"%d ", TTLval);
-            eventCode += (TTLval << (ch-1));
+            //eventCode += (TTLval << (ch-1));
         }
          channelVal = pcBufRead[index+2] & 60;   // extract channel value
 
          if (channelVal == 60) {
             // reset values
          	ch = -1;
-            eventCode = 0;
+            //eventCode = 0;
          }
 	  
 	  }
