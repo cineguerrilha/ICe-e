@@ -1,0 +1,70 @@
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\obj\Debug\USB_Scope.AboutForm.resources
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\obj\Debug\USB_Scope.MagnifyForm.resources
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\obj\Debug\USB_Scope.MainForm.resources
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\obj\Debug\Intan_Amplifier_Demo_1._03.Properties.Resources.resources
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\bin\Debug\Intan Amplifier Demo 1.03.exe.manifest
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\bin\Debug\Intan Amplifier Demo 1.03.application
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\bin\Debug\Intan Amplifier Demo 1.03.exe
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\bin\Debug\Intan Amplifier Demo 1.03.pdb
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\bin\Debug\FTD2XX_NET.dll
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\bin\Debug\FTD2XX_NET.xml
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\obj\Debug\Intan Amplifier Demo 1.03.exe.manifest
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\obj\Debug\Intan Amplifier Demo 1.03.application
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\obj\Debug\Intan Amplifier Demo 1.03.exe
+C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\obj\Debug\Intan Amplifier Demo 1.03.pdb
+C:\Users\richardson\Desktop\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.exe
+C:\Users\richardson\Desktop\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.pdb
+C:\Users\richardson\Desktop\Intan_Arduino\obj\Debug\USB_Scope.AboutForm.resources
+C:\Users\richardson\Desktop\Intan_Arduino\obj\Debug\USB_Scope.MagnifyForm.resources
+C:\Users\richardson\Desktop\Intan_Arduino\obj\Debug\USB_Scope.MainForm.resources
+C:\Users\richardson\Desktop\Intan_Arduino\obj\Debug\Intan_Amplifier_Demo_1._03.Properties.Resources.resources
+C:\Users\richardson\Desktop\Intan_Arduino\bin\Debug\Intan Amplifier Demo 1.03.exe.manifest
+C:\Users\richardson\Desktop\Intan_Arduino\bin\Debug\Intan Amplifier Demo 1.03.application
+C:\Users\richardson\Desktop\Intan_Arduino\bin\Debug\Intan Amplifier Demo 1.03.exe
+C:\Users\richardson\Desktop\Intan_Arduino\bin\Debug\Intan Amplifier Demo 1.03.pdb
+C:\Users\richardson\Desktop\Intan_Arduino\bin\Debug\FTD2XX_NET.dll
+C:\Users\richardson\Desktop\Intan_Arduino\bin\Debug\FTD2XX_NET.xml
+C:\Users\richardson\Desktop\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.exe.manifest
+C:\Users\richardson\Desktop\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.application
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.exe
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.pdb
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\bin\Debug\Intan Amplifier Demo 1.03.exe.manifest
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\bin\Debug\Intan Amplifier Demo 1.03.application
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\bin\Debug\Intan Amplifier Demo 1.03.exe
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\bin\Debug\Intan Amplifier Demo 1.03.pdb
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\bin\Debug\FTD2XX_NET.dll
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\bin\Debug\FTD2XX_NET.xml
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\obj\Debug\USB_Scope.AboutForm.resources
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\obj\Debug\USB_Scope.MagnifyForm.resources
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\obj\Debug\USB_Scope.MainForm.resources
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\obj\Debug\Intan_Amplifier_Demo_1._03.Properties.Resources.resources
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.exe.manifest
+C:\Users\richardson\Dropbox\Intan\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.application
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.exe
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.pdb
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\bin\Debug\Intan Amplifier Demo 1.03.exe.manifest
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\bin\Debug\Intan Amplifier Demo 1.03.application
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\bin\Debug\Intan Amplifier Demo 1.03.exe
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\bin\Debug\Intan Amplifier Demo 1.03.pdb
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\obj\Debug\USB_Scope.AboutForm.resources
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\obj\Debug\USB_Scope.MagnifyForm.resources
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\obj\Debug\USB_Scope.MainForm.resources
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\obj\Debug\Intan_Amplifier_Demo_1._03.Properties.Resources.resources
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.exe.manifest
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.application
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\bin\Debug\FTD2XX_NET.dll
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\bin\Debug\FTD2XX_NET.xml
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\obj\Debug\Interop.MLApp.dll
+C:\Users\h\Desktop\tmp\intan-leao-audio\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.csproj.ResolveComReference.cache
+C:\Users\Richardson\Desktop\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.csproj.ResolveComReference.cache
+C:\Users\Richardson\Desktop\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.csprojResolveAssemblyReference.cache
+C:\Users\Richardson\Desktop\Intan_Arduino\obj\Debug\Intan Amplifier Demo 1.03.csproj.GenerateResource.Cache

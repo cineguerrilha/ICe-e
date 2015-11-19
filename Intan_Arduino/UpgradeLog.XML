@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Intan Amplifier Demo 1.03">
+</Property><Property Name="Solution File" Value="C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Intan Amplifier Demo 1.03.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Intan Amplifier Demo 1.03.suo">
+</Property><Property Name="Date" Value="den 1 december 2012">
+</Property><Property Name="Time" Value="15:39">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Intan Amplifier Demo 1.03.sln" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\Intan Amplifier Demo 1.03.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Intan Amplifier Demo 1.03.suo" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\Intan Amplifier Demo 1.03.suo">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="Intan Amplifier Demo 1.03.csproj" Description="Project file successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\Intan Amplifier Demo 1.03.csproj">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="Intan Amplifier Demo 1.03.csproj.user" Description="Project user file successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\Intan Amplifier Demo 1.03.csproj.user">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="AboutForm.cs" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\AboutForm.cs">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="AboutForm.Designer.cs" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\AboutForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="MagnifyForm.cs" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\MagnifyForm.cs">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="MagnifyForm.Designer.cs" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\MagnifyForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="MainForm.cs" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="MainForm.Designer.cs" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\MainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="Program.cs" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="Properties\Settings1.Designer.cs" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\Properties\Settings1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="SpikeRecord.cs" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\SpikeRecord.cs">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="USBData.cs" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\USBData.cs">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="USBSource.cs" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\USBSource.cs">
+</Event><Event ErrorLevel="2" Project="Intan Amplifier Demo 1.03" Source="ClassDiagram1.cd" Description="Failed to backup file as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\ClassDiagram1.cd">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="FTD2XX_NET_106\FTD2XX_NET.dll" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\FTD2XX_NET_106\FTD2XX_NET.dll">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="FTD2XX_NET_106\FTD2XX_NET.XML" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\FTD2XX_NET_106\FTD2XX_NET.XML">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="IntanLogoMaster.png" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\IntanLogoMaster.png">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="IntanTitle.png" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\IntanTitle.png">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="IntanTitleSmall.png" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\IntanTitleSmall.png">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="RHA2116_on_penny_2_sm.jpg" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\RHA2116_on_penny_2_sm.jpg">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="AboutForm.resx" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\AboutForm.resx">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="MagnifyForm.resx" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\MagnifyForm.resx">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="MainForm.resx" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\Johan\Desktop\Intan Amplifier Demo 1.03\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="Intan Amplifier Demo 1.03.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Intan Amplifier Demo 1.03" Source="Intan Amplifier Demo 1.03.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Intan Amplifier Demo 1.03.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Intan Amplifier Demo 1.03.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Intan Amplifier Demo 1.03" Source="Intan Amplifier Demo 1.03.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
