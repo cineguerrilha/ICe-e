@@ -19,3 +19,10 @@ C:\Users\richardson\Google drive\Neurodynamics_Software\Visual Studio\VS2013\Min
 C:\Users\richardson\Google drive\Neurodynamics_Software\Visual Studio\VS2013\MiniscopeControl\bin\Release\NationalInstruments.DAQmx.dll
 C:\Users\richardson\Google drive\Neurodynamics_Software\Visual Studio\VS2013\MiniscopeControl\bin\Release\NationalInstruments.DAQmx.xml
 G:\My Drive\Neurodynamics_Software\Visual Studio\VS2013\MiniscopeControl\obj\Release\Miniscope Control.exe
+C:\Users\richardson\Documents\GitHub\ICe-e\MiniscopeControl\obj\Release\Miniscope Control.exe
+C:\Users\richardson\Documents\GitHub\ICe-e\MiniscopeControl\bin\Release\Miniscope Control.exe
+C:\Users\richardson\Documents\GitHub\ICe-e\MiniscopeControl\bin\Release\NationalInstruments.DAQmx.dll
+C:\Users\richardson\Documents\GitHub\ICe-e\MiniscopeControl\bin\Release\NationalInstruments.DAQmx.xml
+C:\Users\richardson\Documents\GitHub\ICe-e\MiniscopeControl\obj\Release\ContAcqVoltageSamples_IntClk_ToFile.2013.csprojResolveAssemblyReference.cache
+C:\Users\richardson\Documents\GitHub\ICe-e\MiniscopeControl\obj\Release\NationalInstruments.Examples.ContAcqVoltageSamples_IntClk_ToFile.MainForm.resources
+C:\Users\richardson\Documents\GitHub\ICe-e\MiniscopeControl\obj\Release\ContAcqVoltageSamples_IntClk_ToFile.2013.csproj.GenerateResource.Cache
