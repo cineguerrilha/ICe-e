@@ -13,11 +13,14 @@ cv2.namedWindow("preview")
 vc = cv2.VideoCapture(0)
 LogImages = False
 
+OutDir="c:\out"
+
 if vc.isOpened(): # try to get the first frame
     rval, frame = vc.read()
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     hist = cv2.calcHist([frame],[0],None,[256],[0,256])
     print("Camera open")
+    TimeStampFile = open("TimeStamp.dat","a") 
     
 else:
     rval = False
