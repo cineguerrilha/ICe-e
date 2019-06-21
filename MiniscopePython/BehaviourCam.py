@@ -20,8 +20,8 @@ if vc.isOpened(): # try to get the first frame
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     hist = cv2.calcHist([frame],[0],None,[256],[0,256])
     print("Camera open")
-    TimeStampFile = open("TimeStamp.dat","a") 
-    
+    TimeStampFile = open("TimeStamp.dat","w") 
+    TimeStampFile.write("Frame;TimeStamp\n")
 else:
     rval = False
     
@@ -32,7 +32,7 @@ H = int(vc.get(4))
 fourcc=cv2.VideoWriter.fourcc('X','V','I','D') 
 out = cv2.VideoWriter('c:\out\output.avi', fourcc, 20, (W,H), False)
 DT = time.time()
-
+FrameCount = 1
 while rval:
     
     ret, frame = vc.read()
@@ -45,8 +45,9 @@ while rval:
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             out.write(frame)
         currentDT = time.time()-DT
-        print (str(currentDT))
-        key = cv2.waitKey(20)
+        TimeStampFile.write(str(FrameCount)+';'+str(currentDT)+"\n")
+        
+        key = cv2.waitKey(1)
         if key == 27: # exit on ESC
             break
         if key == 'h':
@@ -54,4 +55,5 @@ while rval:
 
 vc.release()
 out.release()
+TimeStampFile.close()
 cv2.destroyAllWindows()
