@@ -12,30 +12,36 @@ from matplotlib import pyplot as plt
 cv2.namedWindow("preview")
 
 # Chhose the camera
-vc = cv2.VideoCapture(1)
-LogImages = False
+vc = cv2.VideoCapture(0)
+
+#VERY IMPORTANT
+#Here you set if images are recorded
+LogImages = True
+
 DetectionThreshold = 200
 MinMouseSize = 1000
 DetectFlag=0
 
 OutDir="c:\out"
-
+FNameBase = time.strftime("%H_%M_%S")
 if vc.isOpened(): # try to get the first frame
     rval, frame = vc.read()
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     hist = cv2.calcHist([frame],[0],None,[256],[0,256])
     print("Camera open")
-    TimeStampFile = open("TimeStamp.dat","w") 
+    TimeStampFile = open(("Behav_"+FNameBase+".dat"),"w") 
     TimeStampFile.write("Frame;TimeStamp;Detect\n")
 else:
     rval = False
     
 ret = False
 
+
+# Here I need to add something to change names
 W = int(vc.get(3))
 H = int(vc.get(4))
 fourcc=cv2.VideoWriter.fourcc('X','V','I','D') 
-out = cv2.VideoWriter('c:\out\output.avi', fourcc, 20, (W,H), False)
+out = cv2.VideoWriter(('Behav_'+FNameBase+'.avi'), fourcc, 20, (W,H), False)
 DT = time.time()
 FrameCount = 1
 
